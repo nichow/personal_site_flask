@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}About Site{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <div id="main-container">
+        <div id="aboutSiteText">
+            <h2>
+                This site was developed by myself using python 3.6,
+                and the <a href="http://flask.pocoo.org/">Flask</a>, <a href="http://jinja.pocoo.org">Jinja</a>, and CSS3.
+            </h2>
+            <h2>
+                The font used is
+                <a href="https://www.dafont.com/quicksand.font" style="text-decoration: underline; font-size: 24px">quicksand</a>
+                developed by
+                <a href="http://andrewpaglinawan.com/" style="text-decoration: underline; font-size: 24px">Andrew Palglinawan</a>.
+            </h2>
+        </div>
+    </div>
+{% endblock %}
+</html>

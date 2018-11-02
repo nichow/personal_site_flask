@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Music{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <div id="main-container">
+    <h1>frisk</h1>
+        <h2>I am the lead guitarist and one of the songwriters for frisk, we have recorded our music professionally in a studio, and you can listen
+            to the fruit of our labor on <a href="http://thebandfrisk.bandcamp.com">bandcamp</a>. <br>
+
+            Our second album is currently in development; it should be coming out soon!
+
+            We have played live at the following New York venues:
+        </h2>
+        <ul>
+            <li><a href="http://www.bushwickpublichouse.com/">Bushwick Public House</a></li>
+            <li><a href="http://www.pianosnyc.com/">Pianos</a></li>
+            <li><a href="https://www.knittingfactory.com/">Knitting Factory</a></li>
+            <li><a href="http://muchmoresnyc.com/">Muchmore's</a></li>
+        </ul>
+    </div>
+{% endblock %}
+</html>

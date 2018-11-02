@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}My Writing{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <div id="main-container">
+        <h2>
+            Much of my writing can be found on my <a href="http://derivativetrash.tumblr.com">Tumblr</a>. I would consider myself a fiction writer first and foremost; <br>
+            however the tumblr blog is mostly focused on my poetry. It is all very stream of consciousness, and I rarely<br>
+            think twice before posting something. I try not to take it too seriously, and just try to express myself the best I can. <br>
+
+            Here are some more examples of my fiction writing: none of these are even close to complete, they're just small things that <br>
+            I am working on:
+        </h2>
+
+        <ul>
+            <li><a href="../static/documents/periphery.pdf">Periphery</a></li>
+            <li><a href="../static/documents/chess.pdf">An Un-Named Story about a Man Who Likes Chess</a></li>
+            <li><a href="../static/documents/kaela.pdf">An Un-Named Story about a Normal Girl in a Strange Land</a></li>
+        </ul>
+
+        <h2>
+            I also occasionally attempt to write intelligently about games, here are some examples:
+        </h2>
+
+        <ul>
+            <li><a href="../static/documents/catan.pdf">Settlers of Catan analysis</a></li>
+            <li><a href="../static/documents/doom.pdf">DOOM (2016) analysis</a></li>
+            <li><a href="../static/documents/dark souls.pdf">Dark Souls analysis</a></li>
+        </ul>
+    </div>
+{% endblock %}
+</html>

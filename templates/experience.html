@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}My Experience{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <div id="main-container">
+        <h1 style="text-align: center; font-weight: bold">Web Development</h1>
+        <h2>
+            From July 2017 to January 2018, I worked for NYUIT's student technology innovation team. <br>
+            The team is a small coordinated team which is operated like a startup tech team. We used agile workflow tools <br>
+            and developed apps to be used by NYU students, faculty and alumni. <br> <br>
+            I spent the majority of my time working on the two following apps: <br>
+        </h2>
+        <ul>
+            <li><a href="http://node-express-env.2xr7pru2hq.us-east-1.elasticbeanstalk.com/">NYU Occupancy</a></li>
+            <li><a href="http://node-express-env.2xr7pru2hq.us-east-1.elasticbeanstalk.com/">NYU Print Status</a></li>
+        </ul>
+        <h2>
+            Some notable things about these projects is that we used <a href="https://www.density.io/">density.io</a>, to track the current occupancy and capacity of various buildings in NYU. <br>
+            We used Amazon Web Services for these projects, and I am familiar with the CLI and services entailed.
+        </h2>
+
+        <h1 style="text-align: center; font-weight: bold">Game Development</h1>
+        <h2>
+            Through the Game Center at NYU I've worked with Unity, and have made a simple game. I am currently working on more robust projects
+            <a href="http://nichow.itch.io">My itch.io Page</a> <br>
+            I have also been apart of teams who have designed tabletop games! Here are a couple examples:
+        </h2>
+        <ul>
+            <li><a href="../static/documents/Descriptionary.pdf">Descriptionary!</a></li>
+            <li><a href="../static/documents/goblins.pdf">Goblin Swinger Party</a></li>
+        </ul>
+    </div>
+{% endblock %}
+</html>
