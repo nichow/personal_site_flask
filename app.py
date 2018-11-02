@@ -38,6 +38,3 @@ def skills():
 def writing():
     return render_template('writing.html')
 
-
-if __name__ == '__main__':
-    app.run()
