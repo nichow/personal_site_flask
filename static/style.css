@@ -4,6 +4,17 @@
 }
 
 
+@keyframes mouse-hover {
+  from {background-color: #f9f9f9;}
+  to {background-color: #dedede;}
+}
+
+@-webkit-keyframes mouse-hover {
+  from {background-color: #f9f9f9;}
+  to {background-color: #dedede;}
+}
+
+
 body {
   padding: 50px;
   font: 16px Quicksand, "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -75,6 +86,10 @@ a {
   text-align: right;
   padding: .79rem 20px 8px;
   border: 1px solid #dedfe0;
+}
+
+.side-menu ul li:hover {
+  animation: mouse-hover .5s forwards;
 }
 
 #me {
