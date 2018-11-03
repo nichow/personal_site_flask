@@ -14,6 +14,11 @@
   to {background-color: #dedede;}
 }
 
+@-moz-keyframes mouse-hover {
+  from {background-color: #f9f9f9;}
+  to {background-color: #dedede;}
+}
+
 
 body {
   padding: 50px;
