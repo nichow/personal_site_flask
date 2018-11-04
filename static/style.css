@@ -19,7 +19,6 @@
   to {background-color: #dedede;}
 }
 
-
 body {
   padding: 50px;
   font: 16px Quicksand, "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -27,10 +26,19 @@ body {
   background-color: #fff0f0;
 }
 
-a {
+li {
+  margin-left: 50px;
+}
+
+.tag {
   text-decoration: none;
   font-size: 18px;
   color: inherit;
+  display: block;
+  width: 100%;
+  height: inherit;
+  padding: .79rem 20px 8px;
+  box-sizing: border-box;
 }
 
 #masthead {
@@ -89,7 +97,6 @@ a {
   margin-left: -5rem;
   margin-right: auto;
   text-align: right;
-  padding: .79rem 20px 8px;
   border: 1px solid #dedfe0;
 }
 
@@ -127,8 +134,14 @@ a {
   color: #ff9090;
   font-size: 24px;
   text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #masthead h2 {
   margin: .83em 0 0;
+}
+
+.my-skills li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
 }

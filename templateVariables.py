@@ -1,0 +1,41 @@
+navigation = [
+    {'id': 'aboutMe',
+     'href': '/',
+     'text': 'About Me'},
+    {'id': 'aboutSite',
+     'href': '/aboutsite',
+     'text': 'About This Site'},
+    {'id': 'exper',
+     'href': '/experience',
+     'text': 'Experience'},
+    {'id': 'skills',
+     'href': '/skills',
+     'text': 'My Skills'},
+    {'id': 'writing',
+     'href': '/writing',
+     'text': 'Writing Portfolio'},
+    {'id': 'music',
+     'href': '/music',
+     'text': 'Music'},
+    {'id': 'contact',
+     'href': '/contact',
+     'text': 'Contact Me'}
+
+]
+subheading = [
+    {'href': 'http://github.com/nichow',
+     'id': 'git',
+     'src': '../static/images/GitHub.svg'},
+    {'href': 'http://linkedin.com/in/nicolas-garcia-4b0541140',
+     'id': 'linked',
+     'src': '../static/images/Linkedin.svg'},
+    {'href': 'http://facebook.com/nichoww',
+     'id': 'facebook',
+     'src': '../static/images/Facebook.svg'},
+    {'href': 'http://twitter.com/nich0w',
+     'id': 'twitter',
+     'src': '../static/images/Twitter.svg'},
+    {'href': 'http://instagram.com/nichowisdead',
+     'id': 'insta',
+     'src': '../static/images/Instagram.svg'}
+]

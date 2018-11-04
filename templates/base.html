@@ -14,14 +14,10 @@
     </div>
 
         <nav class="side-menu">
-            <ul style="list-style: none">
-                <a class="tag" id="aboutMe" href="/"><li>About Me</li></a>
-                <a class="tag" id="aboutSite" href="/aboutsite"><li>About This Site</li></a>
-                <a class="tag" id="exper" href="/experience"><li>Experience</li></a>
-                <a class="tag" id="skills" href="/skills"><li>My Skills</li></a>
-                <a class="tag" id="folio" href="/writing"><li>Writing Portfolio</li></a>
-                <a class="tag" id="music" href="/music"><li>Music</li></a>
-                <a class="tag" id="contact" href="/contact"><li>Contact Me</li></a>
+            <ul id="navigation" style="list-style: none">
+            {% for item in navigation %}
+                <li><a class="tag" id="{{ item.id }}" href="{{ item.href }}">{{ item.text }}</a></li>
+            {% endfor %}
             </ul>
         </nav>
 </div>
@@ -29,11 +25,9 @@
 <div id="masthead">
     <h2 style="text-align: center">Full Stack Web Developer; Game Developer and Designer; Writer and Musician</h2>
     <div class="sub-heading">
-        <a href="https://www.github.com/nichow"><img id="git" src="../static/images/Github.svg" width="32" height="32"></a>
-        <a href="https://www.linkedin.com/in/nicolas-garcia-4b0541140/"><img id="linked" src="../static/images/Linkedin.svg" width="32" height="32"></a>
-        <a href="https://www.facebook.com/nichoww"><img id="facebook" src="../static/images/Facebook.svg" width="32" height="32"></a>
-        <a href="https://www.twitter.com/nich0w"><img id="twitter" src="../static/images/Twitter.svg" width="32" height="32"></a>
-        <a href="https://www.instagram.com/nichowisdead"><img id="insta" src="../static/images/Instagram.svg" width="32" height="32"></a>
+        {% for item in subheading %}
+            <a href="{{ item.href }}"><img id="{{ item.id }}" src="{{ item.src }}" width="32" height="32"></a>
+        {% endfor %}
     </div>
 </div>
 </nav>
