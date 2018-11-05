@@ -25,7 +25,7 @@ navigation = [
 subheading = [
     {'href': 'http://github.com/nichow',
      'id': 'git',
-     'src': '../static/images/GitHub.svg'},
+     'src': '../static/images/Github.svg'},
     {'href': 'http://linkedin.com/in/nicolas-garcia-4b0541140',
      'id': 'linked',
      'src': '../static/images/Linkedin.svg'},
