@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../static/fonts/quicksand.otf);
+}
+
+
+@keyframes mouse-hover {
+  from {background-color: #f9f9f9;}
+  to {background-color: #dedede;}
+}
+
+@-webkit-keyframes mouse-hover {
+  from {background-color: #f9f9f9;}
+  to {background-color: #dedede;}
+}
+
+@-moz-keyframes mouse-hover {
+  from {background-color: #f9f9f9;}
+  to {background-color: #dedede;}
+}
+
+body {
+  padding: 50px;
+  font: 16px Quicksand, "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #555555;
+  background-color: #fff0f0;
+}
+
+li {
+  margin-left: 50px;
+}
+
+.tag {
+  text-decoration: none;
+  font-size: 18px;
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: inherit;
+  padding: .79rem 20px 8px;
+  box-sizing: border-box;
+}
+
+#masthead {
+  position: fixed;
+  width: calc(100vw - 280px);
+  margin-left: 280px;
+  white-space: nowrap;
+  height: 85px;
+  padding-left: 1rem;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid #dedfe0;
+}
+
+#side-container {
+  position: fixed;
+  width: 270px;
+  height: 100vh;
+  float: left;
+  margin: -3rem -3rem;
+}
+
+#main-container {
+  position: fixed;
+  width: calc(100vw - 280px);
+  height: 100%;
+  top: 86px;
+  margin-left: 280px;
+  float: right;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
+}
+
+.summary {
+  width: 260px;
+  position: relative;
+  display: block;
+  padding: 10px;
+  background-color: #ffc0c0;
+  top: -10px;
+  left: -10px;
+}
+
+.summary h1 {
+  text-align: center;
+}
+
+.side-menu ul {
+  margin-top: -10px;
+}
+
+.side-menu ul li {
+  background-color: #f9f9f9;
+  display: block;
+  margin-left: -5rem;
+  margin-right: auto;
+  text-align: right;
+  border: 1px solid #dedfe0;
+}
+
+.side-menu ul li:hover {
+  animation: mouse-hover .5s forwards;
+}
+
+#me {
+  margin-left: 3px;
+  border-radius: 20px;
+}
+
+.sub-heading {
+  height: 36px;
+  width: inherit;
+  text-align: center;
+}
+
+.sub-heading * {
+  display: inline;
+}
+
+#main-container h1 {
+  padding: 0 30px;
+  text-align: center;
+}
+
+#main-container h2 {
+  padding: 0 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+
+#main-container a {
+  color: #ff9090;
+  font-size: 24px;
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#masthead h2 {
+  margin: .83em 0 0;
+}
+
+.my-skills li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
