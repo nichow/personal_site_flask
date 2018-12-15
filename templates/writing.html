@@ -18,11 +18,9 @@
         </h2>
 
         <ul>
-            <li><a href="../static/documents/Periphery.pdf">Periphery</a></li>
-            <li><a href="../static/documents/ComingHome.pdf">Coming Home</a></li>
-            <li><a href="../static/documents/musings.pdf">The Musings of an Anxiety Ridden Mind High on Marijuana</a></li>
-            <li><a href="../static/documents/chess.pdf">An Un-Named Story about a Man Who Likes Chess</a></li>
-            <li><a href="../static/documents/kaela.pdf">An Un-Named Story about a Normal Girl in a Strange Land</a></li>
+            {% for item in stories %}
+                <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+            {% endfor %}
         </ul>
 
         <h2>
@@ -30,11 +28,9 @@
         </h2>
 
         <ul>
-            <li><a href="../static/documents/catan.pdf">Settlers of Catan analysis</a></li>
-            <li><a href="../static/documents/doom.pdf">DOOM (2016) analysis</a></li>
-            <li><a href="../static/documents/Dark%20Souls.pdf">Dark Souls gameplay analysis</a></li>
-            <li><a href="../static/documents/Dark%20Souls%202.pdf">Dark Souls; or, Throwing Stones in a Glass House</a></li>
-            <li><a href="https://www.youtube.com/watch?v=BRq8OLfRu_M">A video version of the above paper</a></li>
+            {% for item in essays %}
+                <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+            {% endfor %}
         </ul>
     </div>
 {% endblock %}

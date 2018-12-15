@@ -39,3 +39,27 @@ subheading = [
      'id': 'insta',
      'src': '../static/images/Instagram.svg'}
 ]
+stories = [
+    {'href': '../static/documents/Periphery.pdf',
+     'text': 'Periphery'},
+    {'href': '../static/documents/ComingHome.pdf',
+     'text': 'Coming Home'},
+    {'href': '../static/documents/musings.pdf',
+     'text': 'The Musings of an Anxiety Ridden Mind High on Marijuana'},
+    {'href': '../static/documents/chess.pdf',
+     'text': 'Chess'},
+    {'href': '../static/documents/kaela.pdf',
+     'text': 'Kaela - Very Unfinished'}
+]
+essays = [
+    {'href': '../static/documents/catan.pdf',
+     'text': 'Settlers of Catan Analysis'},
+    {'href': '../static/documents/doom.pdf',
+     'text': 'DOOM (2016) Analysis'},
+    {'href': '../static/documents/Dark%20Souls.pdf',
+     'text': 'Dark Souls Gameplay Analysis'},
+    {'href': '../static/documents/Dark%20Souls%202.pdf',
+     'text': 'Dark Souls; or, Throwing Stones in a Glass House'},
+    {'href': 'https://www.youtube.com/watch?v=BRq8OLfRu_M',
+     'text': 'Video Version of the Above Essay'}
+]

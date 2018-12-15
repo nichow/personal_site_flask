@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import render_template
-from templateVariables import navigation, subheading
+from templateVariables import navigation, subheading, stories, essays
 
 app = Flask(__name__)
 
@@ -37,7 +37,7 @@ def skills():
 
 @app.route('/writing')
 def writing():
-    return render_template('writing.html', navigation=navigation, subheading=subheading)
+    return render_template('writing.html', navigation=navigation, subheading=subheading, stories=stories, essays=essays)
 
 
 @app.route('/pot')
