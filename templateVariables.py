@@ -46,6 +46,8 @@ stories = [
      'text': 'Coming Home'},
     {'href': '../static/documents/musings.pdf',
      'text': 'The Musings of an Anxiety Ridden Mind High on Marijuana'},
+    {'href': '../static/documents/delirun.pdf',
+     'text': 'Deli Run'},
     {'href': '../static/documents/chess.pdf',
      'text': 'Chess'},
     {'href': '../static/documents/kaela.pdf',
