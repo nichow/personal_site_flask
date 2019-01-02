@@ -24,20 +24,15 @@ navigation = [
 ]
 subheading = [
     {'href': 'http://github.com/nichow',
-     'id': 'git',
-     'src': '../static/images/Github.svg'},
+     'id': 'git',},
     {'href': 'http://linkedin.com/in/nicolas-garcia-4b0541140',
-     'id': 'linked',
-     'src': '../static/images/Linkedin.svg'},
+     'id': 'linked',},
     {'href': 'http://facebook.com/nichoww',
-     'id': 'facebook',
-     'src': '../static/images/Facebook.svg'},
+     'id': 'facebook',},
     {'href': 'http://twitter.com/nich0w',
-     'id': 'twitter',
-     'src': '../static/images/Twitter.svg'},
+     'id': 'twitter',},
     {'href': 'http://instagram.com/nichowisdead',
-     'id': 'insta',
-     'src': '../static/images/Instagram.svg'}
+     'id': 'insta',}
 ]
 stories = [
     {'href': '../static/documents/Periphery.pdf',

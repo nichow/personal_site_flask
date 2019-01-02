@@ -26,69 +26,65 @@ body {
   background-color: #fff0f0;
 }
 
-li {
-  margin-left: 50px;
-}
-
 .tag {
-  text-decoration: none;
-  font-size: 18px;
-  color: inherit;
-  display: block;
-  width: 100%;
-  height: inherit;
-  padding: .79rem 20px 8px;
-  box-sizing: border-box;
+text-decoration: none;
+font-size: 18px;
+color: inherit;
+display: block;
+width: 100%;
+height: inherit;
+padding: .79rem 20px 8px;
+box-sizing: border-box;
 }
 
 #masthead {
-  position: fixed;
-  width: calc(100vw - 280px);
-  margin-left: 280px;
-  white-space: nowrap;
-  height: 85px;
-  padding-left: 1rem;
-  left: 0;
-  top: 0;
-  border-bottom: 1px solid #dedfe0;
+position: fixed;
+width: calc(100vw - 280px);
+margin-left: 280px;
+white-space: nowrap;
+height: 85px;
+padding-left: 1rem;
+left: 0;
+top: 0;
+border-bottom: 1px solid #dedfe0;
 }
 
 #side-container {
-  position: fixed;
-  width: 270px;
-  height: 100vh;
-  float: left;
-  margin: -3rem -3rem;
+position: fixed;
+width: 270px;
+height: 100vh;
+float: left;
+margin: -3rem -3rem;
 }
 
 #main-container {
-  position: fixed;
-  width: calc(100vw - 280px);
-  height: 100%;
-  top: 86px;
-  margin-left: 280px;
-  float: right;
-  bottom: 0;
-  left: 0;
-  overflow: scroll;
+position: fixed;
+width: calc(100vw - 280px);
+height: 100%;
+top: 86px;
+margin-left: 280px;
+float: right;
+bottom: 0;
+left: 0;
+overflow: scroll;
 }
 
 .summary {
-  width: 260px;
-  position: relative;
-  display: block;
-  padding: 10px;
-  background-color: #ffc0c0;
-  top: -10px;
-  left: -10px;
+width: 260px;
+position: relative;
+display: block;
+padding: 10px;
+background-color: #ffc0c0;
+top: -10px;
+left: -10px;
 }
 
 .summary h1 {
-  text-align: center;
+text-align: center;
 }
 
 .side-menu ul {
-  margin-top: -10px;
+margin-top: -10px;
 }
 
 .side-menu ul li {
@@ -115,9 +111,18 @@ li {
   text-align: center;
 }
 
-.sub-heading * {
-  display: inline;
+.sub-heading span {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url('./images/css_sprite_sheet.gif');
 }
+
+#git      {background-position: 0 0; margin-right: 4px; margin-left: 4px;}
+#linked   {background-position: -32px 0; margin-right:4px;}
+#facebook {background-position: -64px 0; margin-right:4px;}
+#twitter  {background-position: -96px 0; margin-right:4px;}
+#insta    {background-position: -128px 0; margin-right:4px;}
 
 #main-container h1 {
   padding: 0 30px;
