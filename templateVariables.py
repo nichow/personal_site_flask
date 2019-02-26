@@ -60,6 +60,6 @@ essays = [
      'text': 'Dark Souls; or, Throwing Stones in a Glass House'},
     {'href': 'https://www.youtube.com/watch?v=BRq8OLfRu_M',
      'text': 'Video Version of the Above Essay'},
-    {'href': '../static/documents/Nier.pdf,',
+    {'href': '../static/documents/Nier.pdf',
      'text': 'Nier Automata and Nietzsche'}
 ]
