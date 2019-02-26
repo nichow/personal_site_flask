@@ -2,6 +2,9 @@ navigation = [
     {'id': 'aboutMe',
      'href': '/',
      'text': 'About Me'},
+    {'id': 'resume',
+     'href': '../static/documents/Resume.pdf',
+     'text': 'Resume'},
     {'id': 'aboutSite',
      'href': '/aboutsite',
      'text': 'About This Site'},
@@ -19,7 +22,7 @@ navigation = [
      'text': 'Music'},
     {'id': 'contact',
      'href': '/contact',
-     'text': 'Contact Me'}
+     'text': 'Contact Me'},
 
 ]
 subheading = [
@@ -32,7 +35,7 @@ subheading = [
     {'href': 'http://twitter.com/nich0w',
      'id': 'twitter',},
     {'href': 'http://instagram.com/nichowisdead',
-     'id': 'insta',}
+     'id': 'insta',},
 ]
 stories = [
     {'href': '../static/documents/Periphery.pdf',
@@ -45,8 +48,6 @@ stories = [
      'text': 'Deli Run'},
     {'href': '../static/documents/chess.pdf',
      'text': 'Chess'},
-    {'href': '../static/documents/kaela.pdf',
-     'text': 'Kaela - Very Unfinished'}
 ]
 essays = [
     {'href': '../static/documents/catan.pdf',
@@ -58,5 +59,7 @@ essays = [
     {'href': '../static/documents/Dark%20Souls%202.pdf',
      'text': 'Dark Souls; or, Throwing Stones in a Glass House'},
     {'href': 'https://www.youtube.com/watch?v=BRq8OLfRu_M',
-     'text': 'Video Version of the Above Essay'}
+     'text': 'Video Version of the Above Essay'},
+    {'href': '../static/documents/Nier.pdf,',
+     'text': 'Nier Automata and Nietzsche'}
 ]
