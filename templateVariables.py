@@ -20,9 +20,9 @@ navigation = [
     {'id': 'music',
      'href': '/music',
      'text': 'Music'},
-    {'id': 'contact',
-     'href': '/contact',
-     'text': 'Contact Me'},
+    # {'id': 'contact',
+    #  'href': '/contact',
+    #  'text': 'Contact Me'},
 
 ]
 subheading = [

@@ -15,9 +15,9 @@ def aboutsite():
     return render_template('aboutsite.html', navigation=navigation, subheading=subheading)
 
 
-@app.route('/contact')
-def contact():
-    return render_template('contact.html', navigation=navigation, subheading=subheading)
+# @app.route('/contact')
+# def contact():
+#     return render_template('contact.html', navigation=navigation, subheading=subheading)
 
 
 @app.route('/experience')
@@ -40,8 +40,5 @@ def writing():
     return render_template('writing.html', navigation=navigation, subheading=subheading, stories=stories, essays=essays)
 
 
-@app.route('/pot')
-def pot():
-    return render_template('pot.html', navigation=navigation, subheading=subheading)
 # if __name__ == "__main__":
 #     app.run()
