@@ -40,8 +40,8 @@ subheading = [
 stories = [
     {'href': '../static/documents/Periphery.pdf',
      'text': 'Periphery'},
-    {'href': '../static/documents/ComingHome.pdf',
-     'text': 'Coming Home'},
+#    {'href': '../static/documents/ComingHome.pdf',
+#     'text': 'Coming Home'},
 #    {'href': '../static/documents/musings.pdf',
 #     'text': 'The Musings of an Anxiety Ridden Mind High on Marijuana'},
     {'href': '../static/documents/delirun.pdf',
